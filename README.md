@@ -4,7 +4,7 @@ God Conjecture Paper / Presentation / Video Discussion / Substack (for Observer 
 - [God Conjecture Video Presentation for the Wolfram Institute - 19 November 2025](https://www.youtube.com/watch?v=mD9mHjq1DCs&t=9815s)
 - [Symposium on the Platonic Space - Michael Levin - August 2025](https://thoughtforms.life/symposium-on-the-platonic-space/)
 - [Observer Theory Substack](https://observertheory.substack.com/)
-- [Observer Theory with Karl Friston's TNB Working Group - April 2026] (https://www.youtube.com/watch?v=ywUOcxA5dEk&t=176s)
+- [Observer Theory Discussion With Karl Friston - April 2026](https://www.youtube.com/watch?v=ywUOcxA5dEk&t=176s))
 - Current Work: Observer Convergence Proof (see above), Platonic Spaces Lexigraphical Paper (drafting), Alignment as Architecture (in review)
 ***
 
