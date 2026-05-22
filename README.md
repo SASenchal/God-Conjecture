@@ -5,7 +5,7 @@ God Conjecture Paper / Presentation / Video Discussion / Substack (for Observer 
 - [Symposium on the Platonic Space - Michael Levin - August 2025](https://thoughtforms.life/symposium-on-the-platonic-space/)
 - [Observer Theory Substack](https://observertheory.substack.com/)
 - [Observer Theory Discussion With Karl Friston - April 2026](https://www.youtube.com/watch?v=ywUOcxA5dEk&t=176s)
-- Current Work: Observer Convergence Proof (see above), Platonic Spaces Lexigraphical Paper (drafting), Alignment as Architecture (in review)
+- Current Work: Observer Convergence Proof (see git), Platonic Spaces Lexigraphical Paper (drafting), Alignment as Architecture (published)
 ***
 
 # The God Conjecture: A Computational Framework for Theology and Physics
