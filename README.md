@@ -39,7 +39,7 @@ Imagine a mathematical object that contains **every possible computation**. Ever
 *   *Theological equivalent:* **The Infinite / Ein Sof / The Godhead** (pure, undifferentiated potential).
 
 ### 2. The Observer (The Filter)
-If the Ruliad contains *everything*, it looks like static noise (white light). To see a specific "universe" (like ours, with gravity and time), you need an **Observer**.
+If the Ruliad contains *everything*, it looks like static noise (white noise). To see a specific "universe" (like ours, with gravity and time), you need an **Observer**.
 An Observer is any system (an atom, a cell, a human) that:
 *   Has limits (can't see everything at once).
 *   Samples a specific slice of the infinite.
