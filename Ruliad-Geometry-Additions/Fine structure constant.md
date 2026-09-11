@@ -4,13 +4,13 @@
 
 $$\Huge \boxed{\alpha = \frac{1}{8 \cdot 2\pi \cdot e}}$$
 
-$$\alpha \approx \frac{1}{136.621} \approx 0.00732$$
+$$\alpha_{\mathrm{proposed}} \approx \frac{1}{136.635747563} \approx 0.007318728941$$
 
-> **Measured value:** α ≈ 1/137.036 ≈ 0.00730
-> 
-> **Match: 99.7%**
+> **Reference value:** the [2022 CODATA recommendation](https://physics.nist.gov/cuu/pdf/wallet_2022.pdf) gives α⁻¹ = 137.035999177(21).
 >
-> While α is often treated as a single value, its effective strength increases with energy in a phenomenon called running coupling, meaning its value is dependent on the energy level of the interaction being considered. This deviation is within expectations.
+> **Relative discrepancy in α:** the proposed value is approximately **0.292933% higher** than the value corresponding to that reference. This is numerical proximity, not agreement within the reported measurement uncertainty.
+>
+> Effective electromagnetic coupling depends on energy scale and renormalization prescription. Comparing the proposed formula to a running coupling requires specifying that scale and prescription and calculating the correction; running alone does not establish that this residual is expected.
 
 
 ## I. Mathematical Axiom
@@ -93,21 +93,37 @@ The wavefunction evolution ψ(t) = e^(-iEt/ℏ)ψ(0) is this geometric verificat
 
 | Source | Value |
 |--------|-------|
-| Measured | α ≈ 1/137.036 |
-| Calculated | 1/(8·2π·e) ≈ 1/136.621 |
+| CODATA reference | α⁻¹ = 137.035999177(21) |
+| Proposed formula | 1/(8·2π·e) ≈ 1/136.635747563 |
 
-**Match: 99.7% accuracy**
+**Relative discrepancy in α: approximately +0.292933%**
 
 **Verification:**
 
+```python
+import math
+
+proposed_inverse = 16 * math.pi * math.e
+reference_inverse = 137.035999177  # 2022 CODATA
+proposed_alpha = 1 / proposed_inverse
+relative_alpha_error = reference_inverse / proposed_inverse - 1
+
+print(f"2*pi*e = {2 * math.pi * math.e:.12f}")
+print(f"16*pi*e = {proposed_inverse:.12f}")
+print(f"proposed alpha = {proposed_alpha:.12f}")
+print(f"relative discrepancy in alpha = {100 * relative_alpha_error:.9f}%")
 ```
-e ≈ 2.71828
-2π·e ≈ 17.0777
-8·2π·e ≈ 136.621
-1/136.621 ≈ 0.007324
-Actual α ≈ 0.007297
-Ratio: 0.997 or 99.7%
+
+Output:
+
+```text
+2*pi*e = 17.079468445347
+16*pi*e = 136.635747562777
+proposed alpha = 0.007318728941
+relative discrepancy in alpha = 0.292933307%
 ```
+
+The relative discrepancy is calculated for α, not its inverse. These calculations check the numerical evaluation of the proposed formula; its physical interpretation requires the scale and normalization choices described above.
 
 $$\boxed{\alpha = \frac{1}{8 \cdot 2\pi \cdot e}}$$
 
