@@ -6,6 +6,7 @@ God Conjecture Paper / Presentation / Video Discussion / Substack (for Observer 
 - [Observer Theory Substack](https://observertheory.substack.com/)
 - [Observer Theory Discussion With Karl Friston - April 2026](https://www.youtube.com/watch?v=ywUOcxA5dEk&t=176s)
 - Current Work: Observer Convergence Proof (see git), Platonic Spaces Lexigraphical Paper (drafting), Alignment as Architecture (published)
+- [Observer Convergence: numerical erratum and reproducible checks](errata/observer_convergence_numerical_erratum.md)
 ***
 
 # The God Conjecture: A Computational Framework for Theology and Physics
